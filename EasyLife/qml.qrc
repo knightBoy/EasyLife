@@ -1,0 +1,28 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/login.qml</file>
+        <file>qml/login/LineInput.qml</file>
+        <file>qml/components/MessageBox.qml</file>
+        <file>qml/main.qml</file>
+        <file>qml/components/ImageButton.qml</file>
+        <file>qml/components/CircleImage.qml</file>
+        <file>qml/components/LabelButton.qml</file>
+        <file>qml/components/TitleBar.qml</file>
+        <file>qml/components/SysBtnGroup.qml</file>
+        <file>qml/main/MainMenu.qml</file>
+        <file>qml/main/MenuItem.qml</file>
+        <file>qml/components/ProgressBar.qml</file>
+        <file>qml/main/TabExperiment.qml</file>
+        <file>qml/main/TabHappy.qml</file>
+        <file>qml/main/TabLove.qml</file>
+        <file>qml/main/TabPaper.qml</file>
+        <file>qml/main/TabPlan.qml</file>
+        <file>qml/main/TabView.qml</file>
+        <file>qml/main/paper/PaperCategory.qml</file>
+        <file>qml/main/paper/LevelGroup.qml</file>
+        <file>qml/main/experiment/ListTitle.qml</file>
+        <file>qml/main/experiment/ExperimentList.qml</file>
+        <file>qml/main/experiment/ListView.qml</file>
+        <file>qml/main/plan/PlanCalendar.qml</file>
+    </qresource>
+</RCC>

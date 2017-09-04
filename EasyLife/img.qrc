@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/">
+        <file>asset/image/avatar.png</file>
+        <file>asset/image/background.png</file>
+        <file>asset/image/password.png</file>
+        <file>asset/image/userName.png</file>
+        <file>asset/image/box_image.png</file>
+        <file>asset/image/close_hover.png</file>
+        <file>asset/image/close_normal.png</file>
+        <file>asset/image/close_pressed.png</file>
+        <file>asset/image/maximal_hover.png</file>
+        <file>asset/image/maximal_normal.png</file>
+        <file>asset/image/maximal_pressed.png</file>
+        <file>asset/image/minimal_hover.png</file>
+        <file>asset/image/minimal_normal.png</file>
+        <file>asset/image/minimal_pressed.png</file>
+        <file>asset/image/logo.png</file>
+        <file>asset/image/close.png</file>
+        <file>asset/image/main_background.png</file>
+        <file>asset/image/book_menu.png</file>
+        <file>asset/image/experiment_menu.png</file>
+        <file>asset/image/happy_menu.png</file>
+        <file>asset/image/love_menu.png</file>
+        <file>asset/image/plan_menu.png</file>
+        <file>asset/image/star-empty.png</file>
+        <file>asset/image/star-full.png</file>
+        <file>asset/image/tab_paper_background.png</file>
+        <file>asset/image/tab_plan_background.png</file>
+        <file>asset/image/edit.png</file>
+        <file>asset/image/tab_experiment_background.png</file>
+        <file>asset/image/ok.png</file>
+    </qresource>
+</RCC>
