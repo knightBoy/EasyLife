@@ -29,5 +29,7 @@
         <file>asset/image/edit.png</file>
         <file>asset/image/tab_experiment_background.png</file>
         <file>asset/image/ok.png</file>
+        <file>asset/image/tab_love_background.png</file>
+        <file>asset/image/place.png</file>
     </qresource>
 </RCC>

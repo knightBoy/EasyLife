@@ -1,4 +1,5 @@
 #include "src/view/login_form.h"
+#include "src/utils/dialog_result.h"
 
 LoginForm::LoginForm(): BaseDialog(){
 }
@@ -10,7 +11,7 @@ void LoginForm::init(){
     BaseDialog::init();
 
     this->SetQmlFile(":/qml/login.qml");
-    QObject::connect(this->engine(), SIGNAL(quit()), this, SLOT(close()));
+    QObject::connect(this->engine(), SIGNAL(quit()), this, SLOT(cancelLogin()));
 
     userController = new UserController();
 }
@@ -25,4 +26,10 @@ QString LoginForm::varifyUser(QString userName, QString password){
     }else{
         return res.message;
     }
+}
+
+//退出登录
+void LoginForm::cancelLogin(){
+    this->dlgResult = Cancel;
+    this->closeDialog();
 }

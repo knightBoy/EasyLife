@@ -12,7 +12,7 @@ Item {
     Rectangle{
         id: category
         anchors.fill: parent
-        color: "#ffffff"
+        color: "#ffffff";
         radius: 8
 
         Rectangle{

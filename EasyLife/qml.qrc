@@ -24,5 +24,8 @@
         <file>qml/main/experiment/ExperimentList.qml</file>
         <file>qml/main/experiment/ListView.qml</file>
         <file>qml/main/plan/PlanCalendar.qml</file>
+        <file>qml/main/love/Diary.qml</file>
+        <file>qml/main/love/DiaryList.qml</file>
+        <file>qml/components/ImageLabel.qml</file>
     </qresource>
 </RCC>

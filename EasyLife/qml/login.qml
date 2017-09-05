@@ -36,9 +36,23 @@ Rectangle {
 
     }
 
+    Text{
+        anchors{
+            left: parent.left
+            top: parent.top
+            leftMargin: 5
+            topMargin: 5
+        }
+
+        text: qsTr("简单生活")
+        color: "#ffffff"
+        font.family: "幼圆"
+        font.pixelSize: 12
+    }
+
     Image{
-        width: 24
-        height: 24
+        width: 20
+        height: 20
         fillMode: Image.Stretch
         source: "qrc:/asset/image/close.png"
         anchors{

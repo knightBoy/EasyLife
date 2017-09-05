@@ -131,60 +131,18 @@ Rectangle {
             model: ListModel{
                 id: listModel
                 ListElement{
-                    number: "#57"
-                    title: "完成问答页面的前端编码设置"
-                    content: "情感分析相关测试,以及编码实现"
-                    labelTxt: "本机"
-                    deadLineTxt: "2017-09-04"
+                    number: qsTr("#57")
+                    title: qsTr("完成问答页面的前端编码设置")
+                    content: qsTr("情感分析相关测试,以及编码实现")
+                    labelTxt: qsTr("本机")
+                    deadLineTxt: qsTr("2017-09-04")
                 }
                 ListElement{
-                    number: "#57"
-                    title: "完成问答页面的前端编码设置"
-                    content: "情感分析相关测试,以及编码实现"
-                    labelTxt: "本机"
-                    deadLineTxt: "2017-09-04"
-                }
-                ListElement{
-                    number: "#57"
-                    title: "完成问答页面的前端编码设置"
-                    content: "情感分析相关测试,以及编码实现"
-                    labelTxt: "本机"
-                    deadLineTxt: "2017-09-04"
-                }
-                ListElement{
-                    number: "#57"
-                    title: "完成问答页面的前端编码设置"
-                    content: "情感分析相关测试,以及编码实现"
-                    labelTxt: "本机"
-                    deadLineTxt: "2017-09-04"
-                }
-                ListElement{
-                    number: "#57"
-                    title: "完成问答页面的前端编码设置"
-                    content: "情感分析相关测试,以及编码实现"
-                    labelTxt: "本机"
-                    deadLineTxt: "2017-09-04"
-                }
-                ListElement{
-                    number: "#57"
-                    title: "完成问答页面的前端编码设置"
-                    content: "情感分析相关测试,以及编码实现"
-                    labelTxt: "本机"
-                    deadLineTxt: "2017-09-04"
-                }
-                ListElement{
-                    number: "#57"
-                    title: "完成问答页面的前端编码设置"
-                    content: "情感分析相关测试,以及编码实现"
-                    labelTxt: "本机"
-                    deadLineTxt: "2017-09-04"
-                }
-                ListElement{
-                    number: "#57"
-                    title: "完成问答页面的前端编码设置"
-                    content: "情感分析相关测试,以及编码实现"
-                    labelTxt: "本机"
-                    deadLineTxt: "2017-09-04"
+                    number: qsTr("#57")
+                    title: qsTr("完成问答页面的前端编码设置")
+                    content: qsTr("情感分析相关测试,以及编码实现")
+                    labelTxt: qsTr("本机")
+                    deadLineTxt: qsTr("2017-09-04")
                 }
             }
         }

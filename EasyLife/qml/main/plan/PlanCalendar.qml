@@ -61,7 +61,7 @@ Item {
                     wrapMode: Text.WordWrap
                     color: {
                         if(styleData.visibleMonth){
-                            return "#800000"
+                            return "#800000";
                         }else{
                             return "gray"
                         }

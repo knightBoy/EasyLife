@@ -1,7 +1,7 @@
 import QtQuick 2.0
 
 Item {
-    property string txt: "进行中"
+    property string txt: qsTr("进行中");
     property string bgColor: ""
 
     Rectangle{

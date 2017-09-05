@@ -57,6 +57,10 @@ DISTFILES += \
     qml/main/plan/PlanCalendar.qml \
     js/base.js \
     logo.ico \
-    icon.rc
+    icon.rc \
+    qml/main/happy/Joke.qml \
+    qml/main/love/Diary.qml \
+    qml/main/love/DiaryList.qml \
+    qml/components/ImageLabel.qml
 
 RC_FILE = icon.rc

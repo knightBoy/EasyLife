@@ -18,6 +18,10 @@ public:
     //验证用户名密码
     Q_INVOKABLE QString varifyUser(QString userName, QString password);
 
+private slots:
+    //退出登录窗口
+    void cancelLogin();
+
 private:
     UserController* userController;
 };

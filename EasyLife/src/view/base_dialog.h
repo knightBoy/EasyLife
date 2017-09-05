@@ -23,7 +23,7 @@ signals:
 public slots:
     void closeDialog();
 
-private:
+protected:
     DialogResult dlgResult;
 };
 
