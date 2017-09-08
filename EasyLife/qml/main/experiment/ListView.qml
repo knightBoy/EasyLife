@@ -132,7 +132,7 @@ Rectangle {
                 id: listModel
                 ListElement{
                     number: qsTr("#57")
-                    title: qsTr("完成问答页面的前端编码设置")
+                    title: qsTr("完成问答页面的前端编码设置");
                     content: qsTr("情感分析相关测试,以及编码实现")
                     labelTxt: qsTr("本机")
                     deadLineTxt: qsTr("2017-09-04")

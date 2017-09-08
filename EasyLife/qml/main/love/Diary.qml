@@ -29,7 +29,7 @@ Item {
                 Text{
                     id: name
                     anchors{left: avatar.right; leftMargin: 10; verticalCenter: parent.verticalCenter}
-                    text: qsTr("有了猫的鱼")
+                    text: qsTr("有了猫的鱼");
                     color: "#555555"
                     font.pixelSize: 12
                     font.family: "幼圆"

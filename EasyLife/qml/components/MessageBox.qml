@@ -16,7 +16,7 @@ Item{
         x: (parent.width - width)/2
         z: 2
         id: boxImage
-        sourceSize{height:50; width: 50}
+        sourceSize{height:50; width: 50;}
         source: "qrc:/asset/image/box_image.png"
     }
 

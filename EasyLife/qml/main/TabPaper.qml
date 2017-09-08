@@ -66,7 +66,9 @@ Item {
             width: 180
             height: 110
         }
-        HPaper.PaperCategory{
+
+        //添加论文分类
+        HPaper.AddCategory{
             width: 180
             height: 110
         }

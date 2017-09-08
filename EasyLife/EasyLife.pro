@@ -58,9 +58,12 @@ DISTFILES += \
     js/base.js \
     logo.ico \
     icon.rc \
-    qml/main/happy/Joke.qml \
     qml/main/love/Diary.qml \
     qml/main/love/DiaryList.qml \
-    qml/components/ImageLabel.qml
+    qml/components/ImageLabel.qml \
+    qml/main/happy/VideoBox.qml \
+    qml/main/happy/ListTitle.qml \
+    qml/main/happy/VideoList.qml \
+    qml/main/paper/AddCategory.qml
 
 RC_FILE = icon.rc

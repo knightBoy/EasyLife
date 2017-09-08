@@ -44,7 +44,7 @@ Rectangle {
             topMargin: 5
         }
 
-        text: qsTr("简单生活")
+        text: qsTr("简单生活");
         color: "#ffffff"
         font.family: "幼圆"
         font.pixelSize: 12

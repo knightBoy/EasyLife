@@ -1,7 +1,16 @@
 import QtQuick 2.0
+import "./happy" as HHappy
 
-Item {
-    Text{
-        text: "娱乐测试"
+Rectangle {
+    anchors.fill: parent
+    color: "#ffffff"
+
+    Item{
+       anchors.fill: parent
+       anchors.margins: 20
+
+       HHappy.VideoList{
+           width: parent.width
+       }
     }
 }

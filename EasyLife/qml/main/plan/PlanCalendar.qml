@@ -57,7 +57,7 @@ Item {
                         leftMargin: 10
                         rightMargin: 10
                     }
-                    text: qsTr("看书 计算机历史")
+                    text: qsTr("看书 计算机历史");
                     wrapMode: Text.WordWrap
                     color: {
                         if(styleData.visibleMonth){

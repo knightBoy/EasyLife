@@ -5,14 +5,14 @@ import "../paper" as HPaper
 Item {
     id: categoryContainer
 
-    property string title: "LDA相关"
-    property string content: "关于LDA方面的论文,我就是用来测试的，就问你服不服，服不服，服不服";
+    property string title: qsTr("LDA相关")
+    property string content: qsTr("关于LDA方面的论文,我就是用来测试的，就问你服不服，服不服，服不服");
     property int heartCount: 2
 
     Rectangle{
         id: category
         anchors.fill: parent
-        color: "#ffffff";
+        color: "#ffffff"
         radius: 8
 
         Rectangle{
@@ -52,6 +52,7 @@ Item {
             }
 
             Text{
+                id: moreElem
                 text: "View More"
                 anchors{horizontalCenter: parent.horizontalCenter; top: categoryContent.bottom; topMargin: 10}
                 color: "#6B8E23"
@@ -60,6 +61,46 @@ Item {
                     pixelSize: 13
                 }
             }
+        }
+    }
+
+    //遮罩
+    Rectangle{
+        id: shade
+        z: 2
+        anchors.fill: category
+        color: "#72000000"
+        opacity: 0
+        radius: 8
+
+        Text{
+            anchors{
+                verticalCenter: parent.verticalCenter
+                horizontalCenter: parent.horizontalCenter
+            }
+
+            wrapMode: Text.WordWrap
+            text: title
+            color: "#ffffff"
+            font.pixelSize: 14
+            font.bold: true
+        }
+    }
+
+    MouseArea{
+        anchors.fill: category
+        hoverEnabled: true
+        cursorShape: Qt.PointingHandCursor
+        onEntered: {
+            moreElem.scale = 1.2
+            shade.opacity = 1
+        }
+        onExited: {
+            moreElem.scale = 1
+            shade.opacity = 0
+        }
+        onClicked: {
+
         }
     }
 

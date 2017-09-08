@@ -2,7 +2,7 @@ import QtQuick 2.0
 
 Item {
     property string txt: qsTr("进行中");
-    property string bgColor: ""
+    property string bgColor: "";
 
     Rectangle{
         anchors.fill: parent

@@ -21,9 +21,9 @@ int main(int argc, char *argv[])
         login.destroy();
 
         return app.exec();
+    }else{
+        login.close();
+        login.destroy();
+        return 0;
     }
-    login.close();
-    login.destroy();
-
-    return 0;
 }

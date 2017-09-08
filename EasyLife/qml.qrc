@@ -27,5 +27,9 @@
         <file>qml/main/love/Diary.qml</file>
         <file>qml/main/love/DiaryList.qml</file>
         <file>qml/components/ImageLabel.qml</file>
+        <file>qml/main/happy/VideoBox.qml</file>
+        <file>qml/main/happy/ListTitle.qml</file>
+        <file>qml/main/happy/VideoList.qml</file>
+        <file>qml/main/paper/AddCategory.qml</file>
     </qresource>
 </RCC>
